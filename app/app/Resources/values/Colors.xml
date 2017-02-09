@@ -1,9 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <resources>
-  <color name="cMainBackground" type="color">#9999ff</color>
+  <color name="cMainBackground" type="color">#0099cc</color>
   <color name="cMainTextColor" type="color">#eff0f1</color>
   
-  <color name="cActionBarBackground" type="color">#4d4dff</color>
+  <color name="cActionBarBackground" type="color">#007399</color>
   <color name="cActionBarTextColor" type="color">#eff0f1</color>
   
   <!-- 

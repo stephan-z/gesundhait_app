@@ -20,7 +20,7 @@ namespace app.source.activity
             base.OnResume();
 
             // Bisschen Verzögerung
-            await Task.Delay(3000);
+            await Task.Delay(1000);
 
             StartActivity(typeof(MainActivity));
         }
