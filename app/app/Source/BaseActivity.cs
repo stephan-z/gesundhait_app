@@ -1,7 +1,7 @@
 using Android.App;
 using Android.OS;
 
-namespace app.source.activity
+namespace App.Source
 {
     [Activity(Label = "@string/ApplicationTitle", Icon = "@drawable/icon")]
     public class BaseActivity : Activity

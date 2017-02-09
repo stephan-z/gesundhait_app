@@ -4,7 +4,7 @@ using Android.App;
 using Android.OS;
 using Android.Widget;
 
-namespace app.source.activity
+namespace App.Source
 {
     [Activity]
     public class ExtendedActivity : BaseActivity

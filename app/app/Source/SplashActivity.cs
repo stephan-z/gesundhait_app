@@ -3,7 +3,7 @@ using Android.OS;
 
 using System.Threading.Tasks;
 
-namespace app.source.activity
+namespace App.Source
 {
     [Activity(Theme = "@style/gesundhait.SplashScreen", MainLauncher = true, NoHistory = true)]
     public class SplashActivity : BaseActivity

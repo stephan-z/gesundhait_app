@@ -9,7 +9,7 @@
     <ProjectTypeGuids>{EFBA0AD7-5A72-4C68-AF49-83D382785DCF};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>app</RootNamespace>
+    <RootNamespace>App</RootNamespace>
     <AssemblyName>gesundhait_app</AssemblyName>
     <FileAlignment>512</FileAlignment>
     <AndroidApplication>true</AndroidApplication>
@@ -59,13 +59,15 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Source\Activity\BaseActivity.cs" />
-    <Compile Include="Source\Activity\ExtendedActivity.cs" />
-    <Compile Include="Source\Activity\MainActivity.cs" />
+    <Compile Include="Source\BaseActivity.cs" />
+    <Compile Include="Source\ExtendedActivity.cs" />
+    <Compile Include="Source\MainActivity.cs" />
     <Compile Include="Resources\Resource.Designer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Source\Activity\SplashActivity.cs" />
+    <Compile Include="Source\SplashActivity.cs" />
     <Compile Include="Source\Connection\GesundhaitREST.cs" />
+    <Compile Include="Source\Data\User.cs" />
+    <Compile Include="Source\Data\UserList.cs" />
   </ItemGroup>
   <ItemGroup>
     <AndroidResource Include="Resources\layout\Main.axml">
