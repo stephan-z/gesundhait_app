@@ -31,16 +31,17 @@ namespace App.Source.Data
 
         public void setFromJSON(string userAsJSON)
         {
-            JObject obj = JObject.Parse(userAsJSON);
-            ID_ = (int)obj[JSON_USER][JSON_ID];
-            surname_ = (string)obj[JSON_USER][JSON_SURNAME];
-            forename_ = (string)obj[JSON_USER][JSON_FORENAME];
-            number_ = (string)obj[JSON_USER][JSON_NUMBER];
-            mail_ = (string)obj[JSON_USER][JSON_MAIL];
-            username_ = (string)obj[JSON_USER][JSON_USERNAME];
-            password_ = (string)obj[JSON_USER][JSON_PASSWORD];
-            active_ = (bool)obj[JSON_USER][JSON_ACTIVE];
-            created_ = (string)obj[JSON_USER][JSON_CREATED];
+            JObject objUser = JObject.Parse(userAsJSON);
+            JObject objCont = (JObject)objUser[JSON_USER];
+            ID_ = (int)objCont[JSON_ID];
+            surname_ = (string)objCont[JSON_SURNAME];
+            forename_ = (string)objCont[JSON_FORENAME];
+            number_ = (string)objCont[JSON_NUMBER];
+            mail_ = (string)objCont[JSON_MAIL];
+            username_ = (string)objCont[JSON_USERNAME];
+            password_ = (string)objCont[JSON_PASSWORD];
+            active_ = (bool)objCont[JSON_ACTIVE];
+            created_ = (string)objCont[JSON_CREATED];
         }
 
         public string toJSON()
